@@ -3,7 +3,7 @@ import classes from './page.module.css';
 
 export default function ShareMealPage() {
   async function shareMeal(formData) {
-    'use server'
+    'use server';
     const meal = {
       creator: formData.get('name'),
       creator_email: formData.get('email'),
